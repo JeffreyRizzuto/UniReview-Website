@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+
+<section>
+
+<form action="simpleEcho.php" method="post">
+
+First Name:
+<input type="text" name="firstname" value = "" required>
+Last Name:
+<input type="text" name="lastname" value = "" required>
+
+<br><br>
+
+User Name:
+<input type="text" name="username" value = "" required>
+<br><br>
+Password:
+<input type="password" name="password" value = "" required>
+
+<br><br><br>
+
+Contact Info:
+<br><br>
+Email:
+<input type="email" name="email" value = "" required>
+<br>
+Telephone:
+<input type="tel" name="telephone" value = "" required>
+<br>
+Gender:
+<input type="radio" name="gender" value="male" checked>Male 
+<input type="radio" name="gender" value="female">Female
+
+<br><br><br>
+
+Account Information:
+Picture:
+<input type="file" name="file">
+<br>
+Website:
+<input type="url" name="website" value = "">
+<br>
+Favorite WebStore:
+<input list="stores">
+<br>
+Favorite Color:
+<input type="color" name="color" value = "">
+<br>
+Birthday:
+<input type="month" name="month" value = "">
+
+<br> <br>
+<input type="submit" value="Submit">
+</form> 
+
+
+<datalist id="stores">
+  <option label="Amazon" value="Amazon">
+  <option label="Newegg" value="Newegg">
+  <option label="Best Buy" value="Best Buy">
+  <option label="MicroCenter" value="MicroCenter">
+  <option label="Other" value="Other">
+</datalist>
+
+</section>
+</body>
+</html>
